@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, #100602, #4d0868, #03141b, #5c2c61);
+    background-size: 900% 900%;
+    animation: gradient 9s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.wrapper {
+    margin-top: 60px;
+    text-align: center;
+
+
+
+
+}
+
+
+.wrapper h1 {
+    font-family: Impact, ;
+    font-size: 48px;
+
+    color: #ffff;
+    margin-bottom: 25px;
+}
+
+.our_team {
+    width: screen;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5% 1%;
+    gap: 4rem;
+
+
+
+
+
+}
+
+
+.our_team .team_member {
+    width: 18%;
+    height: 300px;
+    margin: 4px;
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 .2rem #bc13fe,
+        0 0 0.2rem #bc13fe,
+        0 0 .2rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;
+
+
+
+}
+
+.our_team .team_member:hover {
+    box-shadow: inset 0 0 10px #bc13fe, 0 0 20px #bc13fe inset, 0 0 20px #bc13fe inset;
+}
+
+
+
+.our_team .team_member .member_img {
+    background: #e9e5fa;
+    max-width: 190px;
+    width: 100%;
+    height: 190px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.our_team .team_member .member_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+}
+
+.our_team .team_member h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+
+}
+
+.our_team .team_member span {
+    font-size: 10px;
+}
+
+.our_team .team_member p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: rgba(0, 0, 0, 0.65);
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item {
+    margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab {
+    color: #8c7ae6;
+    font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media {
+    transform: scale(1);
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Exo 2', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(-45deg, #100602, #43085b, #03141b, #5c2c61);
+        background-size: 600% 600%;
+        animation: gradient 9s ease infinite;
+        height: 100vh;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+
+
+    .wrapper {
+        margin-top: 30px;
+        text-align: center;
+
+
+
+
+    }
+
+
+    .wrapper h1 {
+        font-family: Impact, ;
+        font-size: 48px;
+
+        color: #ffff;
+        margin-bottom: 25px;
+    }
+
+    .our_team {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10% 1%;
+        gap: 4rem;
+    }
+
+
+    .our_team .team_member {
+        width: 80%;
+        height: 300px;
+        margin: 4px;
+        background: #fff;
+        padding: 20px 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 .2rem #bc13fe,
+            0 0 0.2rem #bc13fe,
+            0 0 .2rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+
+
+
+    }
+
+    .our_team .team_member:hover {
+        box-shadow: inset 0 0 10px #bc13fe, 0 0 20px #bc13fe inset, 0 0 20px #bc13fe inset;
+    }
+
+
+
+    .our_team .team_member .member_img {
+        background: #e9e5fa;
+        max-width: 190px;
+        width: 100%;
+        height: 190px;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 5px;
+        position: relative;
+        cursor: pointer;
+
+    }
+
+    .our_team .team_member .member_img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 200px;
+    }
+
+    .our_team .team_member h3 {
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin: 15px 0 0px;
+
+    }
+
+    .our_team .team_member span {
+        font-size: 10px;
+    }
+
+    .our_team .team_member p {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .our_team .team_member .member_img .social_media {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background: rgba(0, 0, 0, 0.65);
+        width: 95%;
+        height: 95%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        transition: all 0.5s ease;
+    }
+
+    .our_team .team_member .member_img .social_media .item {
+        margin: 0 10px;
+    }
+
+    .our_team .team_member .member_img .social_media .fab {
+        color: #8c7ae6;
+        font-size: 20px;
+    }
+
+    .our_team .team_member .member_img:hover .social_media {
+        transform: scale(1);
+    }
+}
