@@ -57,12 +57,13 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url('./img/back.gif');
+    background-image: url('./img/red.gif');
     background-position: bottom;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
 }
 
 .header-content{
