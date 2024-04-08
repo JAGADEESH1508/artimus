@@ -57,9 +57,9 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url('./img/p2.jpg');
+    background: #000000;
     background-position: bottom;
-    background-size: cover;
+    background-size:contain;
     display: flex;
     align-items: flex-end;
     justify-content: center;
