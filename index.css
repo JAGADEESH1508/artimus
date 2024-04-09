@@ -21,7 +21,7 @@ ul{
 
 body , html{
     overflow-x: hidden;
-    
+    background-image: url('./img/t3.gif');
 }
 
 .glow {
@@ -57,7 +57,7 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    background: #000000;
+    
     background-position: bottom;
     background-size:contain;
     display: flex;
@@ -118,9 +118,9 @@ header{
   .glo {
      font-family: Arial, Helvetica, sans-serif;
      
-    -webkit-animation: glo 1.4s ease-in-out infinite alternate;
-    -moz-animation: glo 1.4s ease-in-out infinite alternate;
-    animation: glo 1.4s ease-in-out infinite alternate;
+    -webkit-animation: glo 1.4s ease-out infinite alternate;
+    -moz-animation: glo 1.4s ease-out infinite alternate;
+    animation: glo 1.4s ease-out infinite alternate;
   } 
 
 
@@ -232,7 +232,8 @@ p{
 }
 
 .car-1{
-    background-image: url('./img/img5.png');
+    background-image: url('./img/chiper.jpeg');
+    border: 1px solid white;
 }
 
 .car-2{
@@ -253,6 +254,7 @@ p{
 
 .car-6{
     background-image: url('./img/spotify.jpg');
+    border: 1px solid white;
    
 }
 
@@ -263,7 +265,8 @@ p{
 
 
 .car-8{
-    background-image: url('./img/img5.png');
+    background-image: url('./img/main.png');
+    
 }
 
 .car-9{
