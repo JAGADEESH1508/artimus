@@ -57,9 +57,10 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    
+    background-image: url('./img/fire.gif');
+    background-size: cover;
     background-position: bottom;
-    background-size:contain;
+    
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -232,49 +233,55 @@ p{
 }
 
 .car-1{
-    background-image: url('./img/chiper.jpeg');
-    border: 1px solid white;
+    background-image: url('./img/chi.jpeg');
+    border: 2px solid white;
 }
 
 .car-2{
-    background-image: url('./img/img5.png');
+    background-image: url('./img/ask.jpeg');
+    border: 2px solid white;
 }
 
 .car-3{
-    background-image: url('./img/img5.png');
+    background-image: url('./img/pic.jpeg');
+    border: 2px solid white;
 }
 
 .car-4{
-    background-image: url('./img/img5.png');
+    background-image: url('./img/dazz.jpeg');
+    border: 2px solid white;
 }
 
 .car-5{
-    background-image: url('./img/img5.png');
+    background-image: url('./img/cica.jpeg');
+    border: 2px solid white;
 }
 
 .car-6{
-    background-image: url('./img/spotify.jpg');
-    border: 1px solid white;
+    background-image: url('./img/spty.jpeg');
+    border: 2px solid white;
    
 }
 
 .car-7{
-    background-image: url('./img/box.png');
-    
+    background-image: url('./img/box.jpeg');
+    border: 2px solid white;
 }
 
 
 .car-8{
-    background-image: url('./img/main.png');
-    
+    background-image: url('./img/tri.jpeg');
+    border: 2px solid white; 
 }
 
 .car-9{
-    background-image: url('./img/esport.jpeg');
+    background-image: url('./img/esprt.jpeg');
+    border: 2px solid white;
 }
 
 .car-10{
-    background-image: url('./img/ipl.jpeg');
+    background-image: url('./img/ip.jpeg');
+    border: 2px solid white;
 }
 
 
