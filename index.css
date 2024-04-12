@@ -21,8 +21,11 @@ ul{
 
 body , html{
     overflow-x: hidden;
-    background: #000000;
+    background-image: url('./img/t3.gif');
     scroll-behavior: smooth;
+    height:  -webkit-fill-available;
+    height: 100vh;
+    margin:  0 auto;
 }
 
 .glow {
@@ -58,7 +61,7 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url('./img/fire.gif');
+    background: #000000;
     background-size: cover;
     background-position: bottom;
     
@@ -203,7 +206,9 @@ p{
 .events .ctn{
     margin-top: 30px;
 }
-
+.c .event-img{
+  width: 80%;
+}
 .flex-container{
     width: 100%;
     height: auto;
@@ -492,7 +497,7 @@ p{
         flex-direction: column;
     }
     .c .event-img{
-        max-width: 90%;
+      width: 90%;
     }
     
    
